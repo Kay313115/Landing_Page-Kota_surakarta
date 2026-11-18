@@ -85,4 +85,19 @@ main aside .sosial-media li a:hover { color: #FFD700; }
   main .content .content-description p { font-size: 1rem; }
   main .content .content-image { order: -1; }
   main aside { display: none; }
+  /* BAHASA INGGRIS - BIAR BEDA DARI INDO */
+.english {
+  font-size: 0.9rem !important;
+  color: #6B7A90 !important;
+  font-style: italic;
+  line-height: 1.6 !important;
+  margin-top: 8px !important;
+  border-left: 3px solid #E8EEF7;
+  padding-left: 10px;
+}
+.card .english {
+  background: #F8FAFF;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
                                                                                                                                                                }
