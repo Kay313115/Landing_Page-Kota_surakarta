@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Kota Surakarta</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <!-- NAVBAR -->
     <header class="navbar-container">
         <div class="logo">
             <img src="logo-kota-solo.png" alt="Logo Solo">
-            <div class="logo-text"><span>PEMERINTAH</span><br>KOTA SURAKARTA</div>
         </div>
         <nav class="nav-list">
             <ul>
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#wisata">Wisata</a></li>
+                <li><a href="#kuliner">Kuliner</a></li>
                 <li><a href="#baru">Apa yang Baru</a></li>
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
@@ -27,59 +28,130 @@
 
     <main>
         <!-- BERANDA -->
-        <section id="beranda" class="content">
+        <div id="beranda" class="content">
             <div class="content-description">
                 <h1 class="title">Kota Surakarta</h1>
-                <p>Kami yakin transformasi digital adalah kunci bagi setiap kota untuk maju dan berdaya saing. Surakarta Digital Hub hadir sebagai wadah pendidikan teknologi yang mencetak talenta lokal berkarakter. Semua demi mewujudkan Solo sebagai kota kreatif, berbudaya, dan siap menghadapi masa depan.</p>
+                <p>
+                    Kami yakin transformasi digital adalah kunci bagi setiap kota untuk maju dan berdaya saing.
+                    Surakarta Digital Hub hadir sebagai wadah pendidikan teknologi yang mencetak talenta lokal
+                    berkarakter.
+                    Semua demi mewujudkan Solo sebagai kota kreatif, berbudaya, dan siap menghadapi masa depan.
+                </p>
                 <a href="#wisata"><button>Jelajahi Solo</button></a>
             </div>
             <div class="content-image">
                 <img src="logo-kota-solo.png" alt="logo">
             </div>
-        </section>
+        </div>
 
-        <!-- WISATA / MENU -->
+        <!-- WISATA -->
         <section id="wisata" class="section">
             <h2>Jelajahi Solo</h2>
-            <p class="subtitle">Wisata wajib yang harus lu datengin kalau ke Solo</p>
+            <p class="subtitle">Wisata wajib kalau lu main ke Solo</p>
             <div class="card-container">
                 <div class="card">
                     <div class="card-icon">🏯</div>
                     <h3>Keraton Surakarta</h3>
-                    <p>Istana raja, pusat budaya Jawa. Liat upacara, museum, dan arsitektur kuno yang masih terjaga.</p>
+                    <p>Istana raja, pusat budaya Jawa. Ada museum, upacara adat, dan arsitektur kuno yang masih terjaga.</p>
+                    <p><b>Tiket:</b> Rp 10.000 | <b>Buka:</b> 09.00 - 14.00</p>
                     <span class="tag">Budaya</span>
                 </div>
                 <div class="card">
                     <div class="card-icon">🛍️</div>
                     <h3>Pasar Klewer</h3>
-                    <p>Surga batik termurah se-Indonesia. Mau batik tulis sampe batik cap, semua ada di sini.</p>
+                    <p>Surga batik termurah se-Indonesia. Batik tulis sampe batik cap mulai dari Rp 30.000.</p>
+                    <p><b>Tiket:</b> Gratis | <b>Buka:</b> 09.00 - 17.00</p>
                     <span class="tag">Belanja</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👑</div>
+                    <h3>Pura Mangkunegaran</h3>
+                    <p>Istana yang lebih estetik, ada pertunjukan tari tiap Rabu & Sabtu. Spot foto terbaik di Solo.</p>
+                    <p><b>Tiket:</b> Rp 20.000 | <b>Buka:</b> 08.30 - 14.00</p>
+                    <span class="tag">Sejarah</span>
                 </div>
                 <div class="card">
                     <div class="card-icon">🌙</div>
                     <h3>Ngarsopuro Night Market</h3>
-                    <p>Nongkrong malam Sabtu, ada kuliner, live music, dan lampu-lampu estetik di Jl. Slamet Riyadi.</p>
+                    <p>Tiap Sabtu malam di Jl. Slamet Riyadi. Ada kuliner, live music, dan lampu-lampu estetik.</p>
+                    <p><b>Tiket:</b> Gratis | <b>Buka:</b> Sabtu 18.00 - 23.00</p>
+                    <span class="tag">Malam Hari</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🦌</div>
+                    <h3>Taman Balekambang</h3>
+                    <p>Taman gratis, ada rusa, danau, dan tempat nongkrong sore paling enak buat keluarga.</p>
+                    <p><b>Tiket:</b> Gratis | <b>Buka:</b> 07.00 - 18.00</p>
+                    <span class="tag">Keluarga</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛕</div>
+                    <h3>Pasar Gede</h3>
+                    <p>Pasar tertua di Solo, bangunan peninggalan Belanda. Surganya dawet, lenjongan, dan jajan pasar.</p>
+                    <p><b>Tiket:</b> Gratis | <b>Buka:</b> 05.00 - 17.00</p>
                     <span class="tag">Kuliner</span>
                 </div>
             </div>
         </section>
 
+        <!-- KULINER -->
+        <section id="kuliner" class="section bg-putih">
+            <h2>Kuliner Khas Solo</h2>
+            <p class="subtitle">Wajib coba, jangan pulang sebelum makan ini</p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon">🍚</div>
+                    <h3>Nasi Liwet Wongso Lemu</h3>
+                    <p>Nasi gurih santan, suwiran ayam, telur, dan areh. Legendaris sejak 1950.</p>
+                    <p><b>Harga:</b> Rp 15.000 - 25.000</p>
+                    <span class="tag">Paling Laris</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🥩</div>
+                    <h3>Selat Solo Mbak Lies</h3>
+                    <p>Steak ala Jawa, daging, kentang, wortel, kuah manis segar. Beda dari steak biasa.</p>
+                    <p><b>Harga:</b> Rp 20.000</p>
+                    <span class="tag">Wajib Coba</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍲</div>
+                    <h3>Timlo Sastro</h3>
+                    <p>Sup bening isi sosis solo, telur, ati ampela. Hangat, gurih, cocok buat sarapan.</p>
+                    <p><b>Harga:</b> Rp 18.000</p>
+                    <span class="tag">Sarapan</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🥞</div>
+                    <h3>Serabi Notosuman</h3>
+                    <p>Serabi tipis, gurih, pake santan kental. Ada yang original sama coklat.</p>
+                    <p><b>Harga:</b> Rp 15.000 / pack</p>
+                    <span class="tag">Oleh-oleh</span>
+                </div>
+            </div>
+        </section>
+
         <!-- APA YANG BARU -->
-        <section id="baru" class="section bg-putih">
+        <section id="baru" class="section">
             <h2>Apa yang Baru di Solo?</h2>
             <p class="subtitle">Update terbaru dari Surakarta Digital Hub</p>
             <div class="berita-container">
                 <article class="berita">
                     <span class="date">19 Nov 2026</span>
                     <h3>Surakarta Digital Hub Buka Kelas Coding Gratis</h3>
-                    <p>Buat anak muda Solo yang mau belajar HTML, CSS, dan IoT. Kuota 50 orang, daftar sekarang!</p>
+                    <p>Buat anak muda Solo yang mau belajar HTML, CSS, dan IoT. Kuota cuma 50 orang, daftar sekarang sebelum penuh!</p>
                     <a href="#kontak">Daftar Sekarang →</a>
                 </article>
                 <article class="berita">
                     <span class="date">15 Nov 2026</span>
                     <h3>Solo Jadi Kota Kreatif UNESCO</h3>
-                    <p>Solo resmi masuk jaringan kota kreatif dunia lewat batik dan seni pertunjukan.</p>
+                    <p>Solo resmi masuk jaringan kota kreatif dunia lewat batik dan seni pertunjukan. Bangga jadi wong Solo!</p>
                     <a href="#kontak">Baca Selengkapnya →</a>
+                </article>
+                <article class="berita">
+                    <span class="date">10 Nov 2026</span>
+                    <h3>Car Free Day Slamet Riyadi Makin Rame</h3>
+                    <p>Tiap Minggu pagi, jalan utama Solo ditutup buat olahraga, kuliner, dan sepeda. Ada senam bareng jam 06.00.</p>
+                    <a href="#kontak">Lihat Jadwal →</a>
                 </article>
             </div>
         </section>
@@ -90,11 +162,13 @@
             <p class="subtitle">Mau tanya soal Solo? Langsung chat aja.</p>
             <div class="kontak-box">
                 <div>
-                    <p><i class="fas fa-map-marker-alt"></i> Jl. Jend. Sudirman No.2, Surakarta, Jawa Tengah</p>
-                    <p><i class="fas fa-phone"></i> (0271) 641xxx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Jend. Sudirman No.2, Surakarta, Jawa Tengah 57111</p>
+                    <p><i class="fas fa-phone"></i> (0271) 641222</p>
                     <p><i class="fas fa-envelope"></i> info@surakarta.go.id</p>
+                    <p><i class="fas fa-clock"></i> Senin - Jumat, 08.00 - 16.00 WIB</p>
+                    <p><i class="fas fa-exclamation-circle"></i> Lapor jalan rusak / sampah? Tulis di form sebelah →</p>
                 </div>
-                <form class="form-kontak" onsubmit="alert('Pesan terkirim! Terima kasih.'); return false;">
+                <form class="form-kontak" onsubmit="alert('Pesan terkirim! Terima kasih, wong Solo.'); return false;">
                     <input type="text" placeholder="Nama Kamu" required>
                     <input type="email" placeholder="Email Kamu" required>
                     <textarea placeholder="Pesan Kamu..." rows="3"></textarea>
@@ -102,22 +176,20 @@
                 </form>
             </div>
         </section>
+
+        <aside>
+            <div class="sosial-media">
+                <ul>
+                    <li><a href="https://youtu.be/BL8zIuXYUdk?si=dfdNFO0W7nZ_DcxN"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://id.linkedin.com/company/pemerintah-kota-surakarta"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://x.com/PEMKOT_SOLO?lang=en"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/pemkotsolo/?locale=id_ID"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </aside>
     </main>
-
     <footer>
-        <p>© 2026 Pemerintah Kota Surakarta - Dibuat oleh Diki</p>
+        <p>© 2026 Pemerintah Kota Surakarta - Dibuat oleh Diki | Solo, The Spirit of Java</p>
     </footer>
-
-    <!-- SOSMED MELAYANG -->
-    <aside>
-        <div class="sosial-media">
-            <ul>
-                <li><a href="https://youtu.be/BL8zIuXYUdk"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://id.linkedin.com/company/pemerintah-kota-surakarta"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://x.com/PEMKOT_SOLO"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/pemkotsolo/"><i class="fab fa-facebook"></i></a></li>
-            </ul>
-        </div>
-    </aside>
 </body>
-</html>
+                           </html>
