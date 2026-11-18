@@ -1,70 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page Kota Surakarta</title>
-
+    <title>Landing Page Kota Surakarta</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome 5.15.4 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
+    <!-- NAVBAR -->
     <header class="navbar-container">
         <div class="logo">
-            <img src="logo-kota-solo.png" alt="">
-
+            <img src="logo-kota-solo.png" alt="Logo Solo">
+            <div class="logo-text"><span>PEMERINTAH</span><br>KOTA SURAKARTA</div>
         </div>
         <nav class="nav-list">
             <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Apa yang Baru</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#wisata">Wisata</a></li>
+                <li><a href="#baru">Apa yang Baru</a></li>
+                <li><a href="#kontak">Kontak</a></li>
             </ul>
-
         </nav>
     </header>
+
     <main>
-        <div class="content">
+        <!-- BERANDA -->
+        <section id="beranda" class="content">
             <div class="content-description">
                 <h1 class="title">Kota Surakarta</h1>
-                <p>
-                    Kami yakin transformasi digital adalah kunci bagi setiap kota untuk maju dan berdaya saing.
-                    Surakarta Digital Hub hadir sebagai wadah pendidikan teknologi yang mencetak talenta lokal
-                    berkarakter.
-                    Semua demi mewujudkan Solo sebagai kota kreatif, berbudaya, dan siap menghadapi masa depan.
-                </p>
-                <button>Lebih lanjut</button>
+                <p>Kami yakin transformasi digital adalah kunci bagi setiap kota untuk maju dan berdaya saing. Surakarta Digital Hub hadir sebagai wadah pendidikan teknologi yang mencetak talenta lokal berkarakter. Semua demi mewujudkan Solo sebagai kota kreatif, berbudaya, dan siap menghadapi masa depan.</p>
+                <a href="#wisata"><button>Jelajahi Solo</button></a>
             </div>
             <div class="content-image">
                 <img src="logo-kota-solo.png" alt="logo">
             </div>
-        </div>
-        <aside>
-            <div class="sosial-media">
-                <ul>
-                    <li><a href="https://youtu.be/BL8zIuXYUdk?si=dfdNFO0W7nZ_DcxN"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://id.linkedin.com/company/pemerintah-kota-surakarta"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://x.com/PEMKOT_SOLO?lang=en"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/pemkotsolo/?locale=id_ID"><i class="fab fa-facebook"></i></a></li>
-                </ul>
+        </section>
+
+        <!-- WISATA / MENU -->
+        <section id="wisata" class="section">
+            <h2>Jelajahi Solo</h2>
+            <p class="subtitle">Wisata wajib yang harus lu datengin kalau ke Solo</p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon">🏯</div>
+                    <h3>Keraton Surakarta</h3>
+                    <p>Istana raja, pusat budaya Jawa. Liat upacara, museum, dan arsitektur kuno yang masih terjaga.</p>
+                    <span class="tag">Budaya</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛍️</div>
+                    <h3>Pasar Klewer</h3>
+                    <p>Surga batik termurah se-Indonesia. Mau batik tulis sampe batik cap, semua ada di sini.</p>
+                    <span class="tag">Belanja</span>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌙</div>
+                    <h3>Ngarsopuro Night Market</h3>
+                    <p>Nongkrong malam Sabtu, ada kuliner, live music, dan lampu-lampu estetik di Jl. Slamet Riyadi.</p>
+                    <span class="tag">Kuliner</span>
+                </div>
             </div>
-        </aside>
+        </section>
+
+        <!-- APA YANG BARU -->
+        <section id="baru" class="section bg-putih">
+            <h2>Apa yang Baru di Solo?</h2>
+            <p class="subtitle">Update terbaru dari Surakarta Digital Hub</p>
+            <div class="berita-container">
+                <article class="berita">
+                    <span class="date">19 Nov 2026</span>
+                    <h3>Surakarta Digital Hub Buka Kelas Coding Gratis</h3>
+                    <p>Buat anak muda Solo yang mau belajar HTML, CSS, dan IoT. Kuota 50 orang, daftar sekarang!</p>
+                    <a href="#kontak">Daftar Sekarang →</a>
+                </article>
+                <article class="berita">
+                    <span class="date">15 Nov 2026</span>
+                    <h3>Solo Jadi Kota Kreatif UNESCO</h3>
+                    <p>Solo resmi masuk jaringan kota kreatif dunia lewat batik dan seni pertunjukan.</p>
+                    <a href="#kontak">Baca Selengkapnya →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section id="kontak" class="section kontak-section">
+            <h2>Hubungi Kami</h2>
+            <p class="subtitle">Mau tanya soal Solo? Langsung chat aja.</p>
+            <div class="kontak-box">
+                <div>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Jend. Sudirman No.2, Surakarta, Jawa Tengah</p>
+                    <p><i class="fas fa-phone"></i> (0271) 641xxx</p>
+                    <p><i class="fas fa-envelope"></i> info@surakarta.go.id</p>
+                </div>
+                <form class="form-kontak" onsubmit="alert('Pesan terkirim! Terima kasih.'); return false;">
+                    <input type="text" placeholder="Nama Kamu" required>
+                    <input type="email" placeholder="Email Kamu" required>
+                    <textarea placeholder="Pesan Kamu..." rows="3"></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
     </main>
 
+    <footer>
+        <p>© 2026 Pemerintah Kota Surakarta - Dibuat oleh Diki</p>
+    </footer>
 
-
+    <!-- SOSMED MELAYANG -->
+    <aside>
+        <div class="sosial-media">
+            <ul>
+                <li><a href="https://youtu.be/BL8zIuXYUdk"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://id.linkedin.com/company/pemerintah-kota-surakarta"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://x.com/PEMKOT_SOLO"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/pemkotsolo/"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </aside>
 </body>
-
 </html>
